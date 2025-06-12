@@ -1,0 +1,813 @@
+* {
+    margin: 0;
+}
+
+#home {
+    background-color: #F299D9;
+    display: flex;
+    position: relative;
+}
+
+#página-inicial {
+    background-color: #384373;
+    padding: 300px;
+    position: absolute;
+    top: 80px;
+    left: 80px;
+    right: 80px;
+    bottom: 80px;
+}
+
+.Register {
+    font-family: sans-serif;
+    background-color: #F299D9;
+    /* Rosa */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    /* Garante que o conteúdo preencha toda a altura da viewport */
+    margin: 0;
+}
+
+.containerLogin {
+    background-color: white;
+    padding: 60px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    position: relative;
+}
+
+.containerLogin img.icondaKuromi {
+    width: 110px;
+    height: auto;
+    margin-bottom: 20px;
+    position: absolute;
+    bottom: 295px;
+    right: 150px;
+}
+
+.containerLogin img.icondaKuromi2 {
+    width: 110px;
+    height: auto;
+    margin-bottom: 20px;
+    position: absolute;
+    bottom: 330px;
+    right: 115px;
+}
+
+.containerLogin img.skull {
+    width: 60px;
+    height: auto;
+    margin-bottom: 20px;
+    position: absolute;
+    bottom: -45px;
+    right: 175px;
+}
+
+.containerLogin img.skull2 {
+    width: 60px;
+    height: auto;
+    margin-bottom: 20px;
+    position: absolute;
+    bottom: -45px;
+    right: 145px;
+}
+
+h1 {
+    color: #36454F;
+    /* Azul escuro */
+    margin-bottom: 20px;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    background-color: #D9D9D9;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    outline: none;
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #384373;
+    /* Azul escuro */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.return {
+    background-color: #ca61c3;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 2px solid white;
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+}
+
+.skull {
+    width: 50px;
+    height: auto;
+    margin-top: 20px;
+}
+
+.p-gina-de-compra,
+.p-gina-de-compra * {
+    box-sizing: border-box;
+}
+
+.p-gina-de-compra {
+    height: 1080px;
+    position: relative;
+}
+
+.buyPage {
+    background-color: #ee85b5;
+}
+
+.background-comprando {
+    background: #ee85b5;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    right: 0%;
+    left: 0%;
+    bottom: 0%;
+    top: 0%;
+}
+
+.background-frontal {
+    background: #d9d9d9;
+    width: 65.83%;
+    height: 94.44%;
+    position: absolute;
+    right: 17.08%;
+    left: 17.08%;
+    bottom: 0%;
+    top: 5.56%;
+}
+
+.lateral-de-compra {
+    background: #ffffff;
+    width: 24.17%;
+    height: 92.13%;
+    position: absolute;
+    right: 17.71%;
+    left: 58.13%;
+    bottom: 1.11%;
+    top: 6.76%;
+}
+
+.imagem-do-item {
+    background: #ffffff;
+    width: 39.79%;
+    height: 43.52%;
+    position: absolute;
+    right: 42.5%;
+    left: 17.71%;
+    bottom: 49.81%;
+    top: 6.67%;
+}
+
+.descri-es {
+    background: #ffffff;
+    width: 39.69%;
+    height: 47.59%;
+    position: absolute;
+    right: 42.6%;
+    left: 17.71%;
+    bottom: 1.11%;
+    top: 51.3%;
+}
+
+.imgCompra {
+    color: #000000;
+    text-align: left;
+    font-family: "Inter-Regular", sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    position: absolute;
+    right: 60.78%;
+    left: 35.94%;
+    width: 3.28%;
+    bottom: 69.54%;
+    top: 26.39%;
+    height: 4.07%;
+}
+
+.rectangle-5 {
+    background: #d9d9d9;
+    width: 22.92%;
+    height: 29.81%;
+    position: absolute;
+    right: 18.33%;
+    left: 58.75%;
+    bottom: 62.31%;
+    top: 7.87%;
+}
+
+.descri-o-de-item {
+    color: #000000;
+    text-align: left;
+    font-family: "Inter-Regular", sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    position: absolute;
+    right: 54.53%;
+    left: 29.64%;
+    width: 15.83%;
+    bottom: 22.87%;
+    top: 73.06%;
+    height: 4.07%;
+}
+
+.bot-o-de-compra {
+    background: #000000;
+    border-radius: 10px;
+    width: 22.92%;
+    height: 10.28%;
+    position: absolute;
+    right: 18.33%;
+    left: 58.75%;
+    bottom: 49.81%;
+    top: 39.91%;
+}
+
+.comprar-agora {
+    color: #ffffff;
+    text-align: left;
+    font-family: "Inter-Regular", sans-serif;
+    font-size: 26px;
+    font-weight: 400;
+    position: absolute;
+    right: 23.33%;
+    left: 63.33%;
+    width: 13.33%;
+    bottom: 52.87%;
+    top: 43.06%;
+    height: 4.07%;
+}
+
+.descri-o-de-valores {
+    color: #000000;
+    text-align: left;
+    font-family: "Inter-Regular", sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    position: absolute;
+    right: 20.62%;
+    left: 61.04%;
+    width: 18.33%;
+    bottom: 75.19%;
+    top: 20.74%;
+    height: 4.07%;
+}
+
+.outras-informa-es {
+    color: #000000;
+    text-align: left;
+    font-family: "Inter-Regular", sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    position: absolute;
+    right: 21.25%;
+    left: 61.67%;
+    width: 17.08%;
+    bottom: 22.87%;
+    top: 73.06%;
+    height: 4.07%;
+}
+
+.component-1,
+.component-1 * {
+    box-sizing: border-box;
+}
+
+.component-1 {
+    height: 1080px;
+    position: relative;
+}
+
+.background-home {
+    background: #ee85b5;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    right: 0%;
+    left: 0%;
+    bottom: 0%;
+    top: 0%;
+}
+
+.background-de-itens {
+    background: #384373;
+    width: 95.63%;
+    height: 71.11%;
+    position: absolute;
+    right: 2.19%;
+    left: 2.19%;
+    bottom: 3.8%;
+    top: 25.09%;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.card-item-de-compra1 {
+    width: 15%;
+    height: 34.07%;
+    position: absolute;
+    right: 76.77%;
+    left: 8.23%;
+    bottom: 22.31%;
+    top: 43.61%;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.rectangle-2 {
+    background: #ca61c3;
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    right: 0%;
+    left: 0%;
+    bottom: 0%;
+    top: 0%;
+}
+
+.rectangle-3 {
+    background: #ffffff;
+    width: 91.95%;
+    height: 62.26%;
+    position: absolute;
+    right: 4.03%;
+    left: 4.03%;
+    bottom: 33.79%;
+    top: 3.95%;
+}
+
+.info {
+    color: #000000;
+    text-align: left;
+    font-family: "Inter-Regular", sans-serif;
+    font-size: 26px;
+    font-weight: 400;
+    position: absolute;
+    right: 38.89%;
+    left: 38.54%;
+    width: 22.57%;
+    bottom: 14.67%;
+    top: 79.08%;
+    height: 6.25%;
+}
+
+.img {
+    color: #000000;
+    text-align: left;
+    font-family: "Inter-Regular", sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    position: absolute;
+    right: 39.04%;
+    left: 39.24%;
+    width: 21.72%;
+    bottom: 58.97%;
+    top: 29.08%;
+    height: 11.96%;
+}
+
+.card-item-de-compra2 {
+    width: 15%;
+    height: 34.07%;
+    position: absolute;
+    right: 59.64%;
+    left: 25.36%;
+    bottom: 22.31%;
+    top: 43.61%;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.card-item-de-compra3 {
+    width: 15%;
+    height: 34.07%;
+    position: absolute;
+    right: 42.5%;
+    left: 42.5%;
+    bottom: 22.31%;
+    top: 43.61%;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.card-item-de-compra4 {
+    width: 15%;
+    height: 34.07%;
+    position: absolute;
+    right: 25.36%;
+    left: 59.64%;
+    bottom: 22.31%;
+    top: 43.61%;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.card-item-de-compra5 {
+    width: 15%;
+    height: 34.07%;
+    position: absolute;
+    right: 8.23%;
+    left: 76.77%;
+    bottom: 22.31%;
+    top: 43.61%;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.titles {
+    display: flex;
+    width: 100%;
+    height: 6.2%;
+    position: absolute;
+    right: 0%;
+    left: 0%;
+    bottom: 78.33%;
+    top: 15.46%;
+}
+
+
+
+.fundo-cabe-ario {
+    background: linear-gradient(-5.23deg, rgba(238, 133, 181, 1) 99.98999834060669%);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    right: 0%;
+    left: 0%;
+    bottom: 0%;
+    top: 0%;
+}
+
+.tit-los-cabe-ario {
+    width: 65.68%;
+    height: 23.88%;
+    position: absolute;
+    right: 16.04%;
+    left: 18.28%;
+    bottom: 37.31%;
+    top: 38.81%;
+    z-index: 7;
+}
+
+.cadastrar {
+    color: #000000;
+    text-align: left;
+    font-family: "Inter-Regular", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    position: absolute;
+    right: 0%;
+    left: 90.48%;
+    width: 9.52%;
+    bottom: 0%;
+    top: 0%;
+    height: 100%;
+}
+
+.entrar {
+    color: #000000;
+    text-align: left;
+    font-family: "Inter-Regular", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    position: absolute;
+    right: 25.3%;
+    left: 68.36%;
+    width: 6.34%;
+    bottom: 0%;
+    top: 0%;
+    height: 100%;
+}
+
+.sobre-n-s {
+    color: #000000;
+    text-align: left;
+    font-family: "Inter-Regular", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    position: absolute;
+    right: 70.50%;
+    left: 20.54%;
+    width: 250px;
+    bottom: 0%;
+    top: 0%;
+    height: 100%;
+}
+
+.home {
+    color: #000000;
+    text-align: left;
+    font-family: "Inter-Regular", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    position: absolute;
+    right: 95.24%;
+    left: 0%;
+    width: 4.76%;
+    bottom: 0%;
+    top: 0%;
+    height: 100%;
+}
+
+.complete-search-bar {
+    width: 37.5%;
+    height: 5.19%;
+    position: absolute;
+    right: 31.25%;
+    left: 31.25%;
+    bottom: 89.17%;
+    top: 5.65%;
+}
+
+.search-bar {
+    background: #d9d9d9;
+    border-radius: 30px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    right: 0%;
+    left: 0%;
+    bottom: 0%;
+    top: 0%;
+}
+
+.laterais-search-bar {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    right: 0%;
+    left: 0%;
+    bottom: 0%;
+    top: 0%;
+    margin-left: 0.5px;
+}
+
+.icon-back-magnifying-glass {
+    background: #ca61c3;
+    border-radius: 0px 30px 30px 0px;
+    width: 8.89%;
+    height: 100%;
+    position: absolute;
+    right: 82.22%;
+    left: 8.89%;
+    bottom: 0%;
+    top: 0%;
+    transform-origin: 0 0;
+    transform: rotate(0deg) scale(-1, 1);
+}
+
+.icon-back-magnifying-glass2 {
+    background: #ca61c3;
+    border-radius: 0px 30px 30px 0px;
+    width: 8.89%;
+    height: 100%;
+    position: absolute;
+    right: 0%;
+    left: 91.11%;
+    bottom: 0%;
+    top: 0%;
+}
+
+.search {
+    width: 4.17%;
+    height: 53.57%;
+    position: absolute;
+    right: 2.5%;
+    left: 93.33%;
+    bottom: 21.43%;
+    top: 25%;
+    overflow: visible;
+}
+
+.options-search-bar {
+    width: 2.5%;
+    height: 28.57%;
+    position: absolute;
+    right: 94.17%;
+    left: 3.33%;
+    bottom: 35.71%;
+    top: 35.71%;
+    overflow: visible;
+}
+
+.polygon-3 {
+    width: 3.72%;
+    height: 8.02%;
+    position: absolute;
+    right: -150px;
+    left: 97.80%;
+    bottom: 34.67%;
+    top: 57.31%;
+    transform: translate(-68.95px, 4.82px);
+    overflow: visible;
+}
+
+.polygon-4 {
+    width: 3.72%;
+    height: 8.02%;
+    position: absolute;
+    right: 92.53%;
+    left: 50px;
+    bottom: 34.67%;
+    top: 57.31%;
+    transform: translate(-4px, 4.82px);
+    overflow: visible;
+}
+
+.quem-somos-n-s,
+.quem-somos-n-s * {
+    box-sizing: border-box;
+}
+
+.quem-somos-n-s {
+    height: 1080px;
+    position: relative;
+}
+
+.background-sobre-nos {
+    background: #ee85b5;
+    width: 100%;
+    /* height: 100%; */
+    height: 100%;
+    position: absolute;
+    right: 0%;
+    left: 0%;
+    bottom: 0%;
+    top: 0%;
+}
+
+.fundo-externo {
+    background: #ffffff;
+    width: 97.5%;
+    /* height: 95.56%; */
+    height: 820px;
+    position: absolute;
+    right: 1.25%;
+    left: 1.25%;
+    bottom: 2.22%;
+    top: 2.22%;
+}
+
+.fundo-interno {
+    background: #384373;
+    width: 95.83%;
+    /* height: 92.59%; */
+    height: 800px;
+    position: absolute;
+    right: 2.08%;
+    left: 2.08%;
+    bottom: 3.7%;
+    top: 3.7%;
+}
+
+.quem-somos-n-s2 {
+    color: #000000;
+    text-align: left;
+    font-family: "JetBrainsMono-Regular", sans-serif;
+    font-size: 128px;
+    font-weight: 400;
+    z-index: 8;
+    /* position: absolute; */
+    right: 15.83%;
+    left: 20.83%;
+    /* width: 63.33%; */
+    bottom: 88.43%;
+    top: 8.33%;
+    /* height: 3.24%; */
+    height: 400px;
+    width: 900px;
+}
+
+.quem-somos-n-s2 h1 {
+    width: 80%;
+    height: 80%;
+}
+
+.lorem-ipsum {
+    color: #000000;
+    text-align: left;
+    font-family: "JetBrainsMono-Regular", sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+    position: absolute;
+    right: 10.89%;
+    left: 13.23%;
+    width: 75.89%;
+    bottom: 53.61%;
+    top: 27.5%;
+    /* height: 18.89%; */
+    height: 500px;
+}
+
+.lorem-ipsum h1{
+    color: #000000;
+    text-align: center;
+
+}
+
+.image-1 {
+    width: 9.22%;
+    height: 200px;
+    position: absolute;
+    right: 86.77%;
+    left: 4.01%;
+    top: 97px;
+    object-fit: cover;
+    aspect-ratio: 177/200;
+}
+
+._2025-sanrio-co-ltd-all-rights-reserved {
+    color: #000000;
+    text-align: left;
+    font-family: "Inter-Regular", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    position: absolute;
+    right: 33.12%;
+    left: 38.12%;
+    width: 28.75%;
+    bottom: 7.5%;
+    top: 90.28%;
+    height: 2.22%;
+}
+
+.rectangle-1 {
+    background: #ee85b5;
+    border-radius: 20px;
+    width: 149px;
+    height: 33px;
+    position: relative;
+    left: 89px;
+    top: 785px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.voltar {
+    color: #000000;
+    text-align: left;
+    font-family: "Inter-Regular", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    position: absolute;
+    left: 136px;
+    top: 790px;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+#listagem-de-produtos {
+    width: 100%;
+    height: 100px;
+    background-color: transparent;
+}
+
+.botoes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+}
+
+.button img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+}
+
+#seach-text-bar {
+    width: 90%;
+    height: 100%;
+    margin-left: 40px;
+}
+
+.cima{
+    width: 2028px;
+    height: 374px;
+    position: absolute;
+    left: -634px;
+    bottom: -270px;
+}
